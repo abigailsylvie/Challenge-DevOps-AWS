@@ -24,7 +24,7 @@ This project sets up a data lake for NBA sports analytics using AWS services (S3
 ## Setup Instructions
 
 ### 1. Environment Setup
-1. Open a terminal or command prompt.
+1. Open a terminal or command prompt OR vs code terminal .
 2. Create a virtual environment:
    ```bash
    python -m venv venv
@@ -43,17 +43,8 @@ This project sets up a data lake for NBA sports analytics using AWS services (S3
    pip install boto3 python-dotenv requests
    ```
 
-### 2. AWS CloudShell Setup
-1. Log in to your AWS account.
-2. Click on the **CloudShell** button at the top of the console.
-3. In the CloudShell CLI, create a Python script file:
-   ```bash
-   nano setup_nba_data_lake.py
-   ```
-4. Copy and paste the provided project code into `setup_nba_data_lake.py`.
-
 ### 3. Update the Code
-1. Locate the following lines in the code:
+1. Locate the following lines in the code en .env file:
    ```python
    SPORTS_DATA_API_KEY=your_sportsdata_api_key
    NBA_ENDPOINT=https://api.sportsdata.io/v3/nba/scores/json/Players
@@ -66,13 +57,19 @@ This project sets up a data lake for NBA sports analytics using AWS services (S3
 
 4. Save the file and exit:
    ```bash
-   Ctrl+O (save) and Ctrl+X (exit)
+   Ctrl+s 
    ```
 
 ### 4. Run the Script
-1. Execute the script in CloudShell:
+1. Execute the script in  vs code terminal:
    ```bash
    python3 setup_nba_data_lake.py
+   ```
+
+### 4. delete resource
+1. to avoid any cost, open the file delete_aws_ressource.py do again the previous step we did and delete by runing :
+   ```bash
+   python3 delete_aws_ressource.py
    ```
 
 ### 5. Verify Resources
@@ -105,7 +102,7 @@ For detailed documentation, visit the official AWS and Sportsdata.io documentati
 
 ---
 
-**Author:** [Your Name]  
+**Author:** ABIGAIL SYLVIE 
 **Date:** January 2025  
 **Purpose:** Build a scalable data lake for NBA analytics.
 
