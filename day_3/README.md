@@ -44,7 +44,7 @@ This project sets up a data lake for NBA sports analytics using AWS services (S3
    ```
 
 ### 3. Update the Code
-1. Locate the following lines in the code en .env file:
+1. Locate the following lines in the '.env' file:
    ```python
    SPORTS_DATA_API_KEY=your_sportsdata_api_key
    NBA_ENDPOINT=https://api.sportsdata.io/v3/nba/scores/json/Players
