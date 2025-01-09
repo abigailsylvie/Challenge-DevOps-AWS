@@ -22,7 +22,7 @@ Welcome to my 30-day DevOps  Challenge! The goal of this challenge is to improve
 | :---: | :---:|
 | 1  |  ✅ [here](./001/README.md) |
 | 2  |  ✅ [here](./002/README.md) |
-| 3  |  ✅ [here](./003/README.md) |
+| 3  |  ✅ [here](./day_3/README.md) |
 | 30 |  ❌ |
 
 <!-- </details> -->
