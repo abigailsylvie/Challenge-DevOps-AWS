@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-
 # Weather Dashboard Project
 
 ## Overview
@@ -111,13 +109,4 @@ weather-data/
 - Schedule automatic weather updates using a task scheduler.
 - Extend functionality to visualize weather data using charts.
 
-## Author
-ABIGAIL SYLVIE
 
-## License
-This project is licensed under the MIT License. For details, see the `LICENSE` file in the project repository.
-
-=======
-# weather-dashboard
-The Weather Dashboard is a Python-based application that fetches real-time weather data for specified cities using the OpenWeather API and stores the data in an AWS S3 bucket. This project showcases skills in API integration, cloud storage management, and Python development.
->>>>>>> 316781fc0216debc4708d86d0540714d1549b75a
